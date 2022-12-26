@@ -1,0 +1,94 @@
+@media only screen and (min-width: 740px) {
+  .login-page{
+    background: transparent;
+
+    .login-background{
+      display: block;
+    }
+  }
+  .footer-container{
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  .footer-divider{
+    display: none;
+  }
+  .footer-wrapper{
+    margin-top: -160px!important;
+  }
+  .login-body {
+    margin: 0 auto -236px;
+    max-width: 450px;
+    min-height: 100vh;
+    padding: 0px!important;
+  }
+
+  .login-header{
+    background: linear-gradient(180deg,rgba(0,0,0,.5) 0,transparent)!important;
+    border-bottom: transparent;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .login-content{
+    margin-bottom: 90px;
+    min-height: 660px;
+    padding: 60px 68px 40px!important;
+  }
+
+  .login-body::before {
+    content: "";
+    display: block;
+    height: 91px;
+  }
+  .login-body::after {
+    content: "";
+    display: block;
+    height: 236px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .footer-link {
+    width: 33%!important;
+  }
+  .login-header{
+    height: 75px!important;
+
+    a{
+      line-height: 75px!important;
+    }
+  }
+}
+@media screen and (max-width: 440px), screen and (orientation: landscape) and (max-width: 700px) {
+  .login-header{
+    height: 45px!important;
+
+    a{
+      line-height: 45px!important;
+    }
+
+    svg{
+      padding-top: 12px!important;
+      width: 75px!important;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .footer-link{
+    width: 50%!important;
+  }
+  .btn-submit{
+    margin: 0.5em auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .login-content {
+      min-width: 380px;
+  }
+}

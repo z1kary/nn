@@ -1,0 +1,41 @@
+@font-face{
+  src: url('./fonts/NetflixSans_W_Rg.woff2');
+  font-family: 'Helvetica';
+}
+@font-face{
+  src: url('./fonts/NetflixSans_W_Md.woff2');
+  font-family: 'Helvetica-Bold';
+}
+@font-face{
+  src: url('./fonts/nf-icon-v1-93.woff');
+  font-family: 'Netflix Icons';
+}
+// @font-face{
+//   src: url('./fonts/netflix-roboto.woff2');
+//   font-family: 'Roboto';
+// }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+$font: 'Helvetica', sans-serif;
+$font-bold: 'Helvetiva-Bold', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+$nf-icon: 'Netflix Icons';
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+  font-family: $font;
+}
+
+img{
+  pointer-events: none;
+}
+
+body{
+  background-color: black;
+}
